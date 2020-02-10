@@ -5,6 +5,7 @@ namespace R5T.Odense
 {
     public interface IVisualStudioSolutionFileProjectTypeGuidProvider
     {
-        Guid GetNetStandardLibraryProjectTypeGuid()
+        Guid GetCSharpNetStandardLibraryProjectTypeGuid();
+        Guid GetOldCSharpNetStandardLibraryProjectTypeGuid();
     }
 }
